@@ -1,0 +1,20 @@
+<div class="float-lg-right">
+  <form #loginForm="ngForm" (ngSubmit)="login()">
+    <div class="row login">
+      <div class=""><span>User ID</span></div>
+      <div class="">
+        <input placeholder="jonsnow" name="userid" required type="text" class="" [(ngModel)]="user.userid">
+      </div>
+      <div class=""><span>Password</span></div>
+      <div class="">
+        <input placeholder="**********" name="password" required type="password" class="" [(ngModel)]="user.password">
+      </div>
+      <div class="">
+        <button class="btn btn-login">Login</button>
+      </div>
+    </div>
+    <div class="row error-div">
+      <span class="error">{{ errorMessage }}</span>
+    </div>
+  </form>
+</div>

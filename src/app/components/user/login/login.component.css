@@ -1,0 +1,13 @@
+span {
+    margin: auto 20px;
+}
+
+.error-div {
+    margin-top: 0;
+}
+
+.error {
+    color: red;
+    font-size: 80%;
+    font-style: italic;
+}

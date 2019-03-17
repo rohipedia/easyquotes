@@ -1,0 +1,14 @@
+.main {
+    padding-top: 10px;
+    margin: auto 50px;
+}
+
+.main > hr {
+    border: 0.2px solid white;
+}
+
+.btn-add-quote {
+    color: white;
+    border: 1px solid white;
+    margin: 10px 10px 0px 0px;
+}

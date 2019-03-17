@@ -1,0 +1,39 @@
+.quote {
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 5%;
+    width: 100%;
+    display: block;
+    border: 1px solid white;
+    padding: 1.5%;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 85%;
+    margin-top: 10px;
+}
+
+.btn {
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-right: 20px;
+    font-size: 80%;
+}
+
+.btn:hover {
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-right: 20px;
+    background-color: rgb(58, 58, 58);
+}
+
+.active, active:hover {
+    color: white;
+    border-bottom: 1px solid white;
+    margin-right: 20px;
+    background-color: rgb(139, 109, 109) !important;
+}

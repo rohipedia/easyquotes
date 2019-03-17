@@ -1,0 +1,16 @@
+<div class="quote">
+  <div class="row">
+    <div class="col-8">
+        "{{ quote.text }}"
+    </div>
+    <div class="col-2">
+        <span class="author float-right"><i>- {{ quote.author }}</i></span>
+    </div>
+    <div class="col-2">
+      <span class="float-right">
+          <button class="btn" (click)="likeQuote()" [ngClass]="{active: quote.liked}">{{likeText}}</button>
+          <button class="btn" (click)="dislikeQuote()" [ngClass]="{active: quote.disliked}">{{dislikeText}}</button>
+        </span>
+    </div>
+  </div>
+</div>

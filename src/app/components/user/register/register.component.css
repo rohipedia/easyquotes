@@ -1,0 +1,46 @@
+form > div {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+.wrap {
+    max-width: 650px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0, 0, 0, 0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.add-top-mgn-ten {
+    margin-top: 20px !important;
+}
+
+button,
+button:hover,
+button:active {
+    opacity: 0.8;
+    color: #fff;
+    background-color:black;
+    border-color: grey;
+}
+
+.agreement {
+    font-size: 80%;
+}

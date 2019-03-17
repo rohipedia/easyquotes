@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="wrap">
+    <form #userForm="ngForm" (ngSubmit)="register()">
+      <div class="row">
+        <div class="col-3"><span>Name</span></div>
+        <div class="col-9">
+          <input placeholder="Jon Snow" required name="name" type="text" class="" [(ngModel)]="user.name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><span>e-mail</span></div>
+        <div class="col-9">
+          <input placeholder="jon.snow@hotmail.com" required name="email" type="email" class=""
+            [(ngModel)]="user.email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><span>User ID</span></div>
+        <div class="col-9">
+          <input placeholder="jonsnow" name="userid" required type="text" class="" [(ngModel)]="user.userid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><span>Password</span></div>
+        <div class="col-9">
+          <input placeholder="**********" name="password" required type="password" class="" [(ngModel)]="user.password">
+        </div>
+      </div>
+      <div class="row add-top-mgn-ten">
+        <div class="col-3"><span>Gender</span></div>
+        <div class="col-9">
+          <input type="radio" required name="gender" value="Male" [(ngModel)]="user.gender"> Male
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" required name="gender" value="Female" [(ngModel)]="user.gender"> Female
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <span class="agreement">{{ agreement }}</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-9"></div>
+        <div class="col-3">
+          <button (disabled)="userForm.valid" class="btn">Register</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

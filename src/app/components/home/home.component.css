@@ -1,0 +1,47 @@
+.body {
+    padding-top: 10px;
+    background-image: url('../../../assets/Dark-wallpaper-HD-souls.jpg');
+    background-size: cover;
+    height: 100vh;
+    overflow-y: scroll;
+    color: #ffffff;
+}
+
+form > div {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+.wrap {
+    max-width: 650px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    color: #ffffff;
+    margin: 70px 0 0 10px;
+}
+
+.add-top-mgn-ten {
+    margin-top: 20px !important;
+}
+
+button,
+button:hover,
+button:active,
+.btn-login,
+.btn-login:hover,
+.btn-login:active {
+    margin-left: 30px;
+    opacity: 0.8;
+    color: #fff;
+    background-color:black;
+    border-color: grey;
+}
+
+.agreement {
+    font-size: 80%;
+}

@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+}
+
+input[type=text], input[type=email], input[type=password], select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 5px;
+    background: rgba(0, 0, 0, 0.10);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+}
